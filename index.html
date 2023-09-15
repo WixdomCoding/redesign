@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/slidetest.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages</title>
+</head>
+<body>
+    <section id="top">
+        <a href="https://help.github.com/pages/" class="help-link">Pages Help</a>
+        <a id="toplogo" href="/Projektet/index.html"><img src="./IMG/logo.svg" alt="logo"></a>
+
+        <h2 class="first-p">Websites for you and your projects.</h2>
+        <p class="second-p">Hosted directly from your <a href="https://github.com/">GitHub repository.</a> Just edit, push, and your changes are live.</p>
+        <div id="slideshow-container">
+            <div id="slideshow">
+                <div class="slideshow-container">
+                    <div class="slide-container">
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/1.png" alt="Image 1">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/2.png" alt="Image 2">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/3.png" alt="Image 3">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/4.png" alt="Image 4">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/5.png" alt="Image 5">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/6.png" alt="Image 6">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/7.png" alt="Image 7">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/8.png" alt="Image 8">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/9.png" alt="Image 9">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/10.png" alt="Image 10">
+                        </div>
+                        <div class="slide">
+                            <img src="./IMG/slideshowimages/11.png" alt="Image 11">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="tutorial" class="tutorial">
+        <h1>Ready to get started? Build your own site from scratch or generate one for your project.</h1>
+        <h2>You get one site per GitHub account and organization,
+            and unlimited project sites. Let‘s get started.</h2>
+        <ul class="tabs">
+            <li>
+                <a target="_blank" href="#step1holder">User or organization site</a>
+            </li>
+            <li>
+                <a target="_blank" href="#" class="border-ani">Project site</a>
+            </li>
+        </ul>
+    </div>
+    <div id="step1holder">
+        <div class="step1"> 
+            <p class="num num-flex">1</p>
+            <div class="step1-flex">
+                <div class="step1-text">
+                    <h4>Create a repository</h4>
+                    <p style="font-weight: 300; font-size: 18px;">Head over to <a target="_blank" href="https://github.com/">GitHub</a> and <a target="_blank" href="https://github.com/new">create a new public repository</a> named username.github.io, where username is your username (or organization name) on GitHub.</p>
+                    <p class="details">If the app doesn't open, launch it and clone the repository from the app.</p>
+                </div>
+                <img class="createrepimg" id="createrepimg" src="https://pages.github.com/images/user-repo@2x.png" alt="github image">
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollTarget" class="questionholder">
+        <div class="question">
+                <p class="num">1.5</p>
+            <h4>What git client are you using?</h4>
+            <p>If you are using terminal, skip this question and go straight to step 2.</p>
+            <ul class="tabs">
+                <li><a id="option-terminal" href="#scrollTarget" class="selected">A terminal</a></li>
+                <li><a id="option-desktop" href="./HTML/GHDESK-Guide.html#scrollTarget" class="">GitHub Desktop</a></li>
+                <li><a id="option-newuser" href="./HTML/GHDESK-Download.html" class="">I don't know</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="step2holder">
+        <div class="step2">
+            <p class="num">2</p>
+            <div class="step2-text2">
+                <h4>Clone the repository</h4>
+                <p>Go to the folder where you want to store your project, and clone the new repository:</p>
+            </div>
+            <div class="terminal">
+                <div class="shell">
+                    <p><span class="path">~</span><span class="prompt">$</span>git clone https://github.com/<em>username</em>/<em>username</em>.github.io</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="step3holder">
+        <div class="step3"> 
+            <p class="num">3</p>
+            <div class="step3-text">
+                <h4>Hello World</h4> 
+                <p>Enter the project folder and add an index.html file:</p>
+            </div>
+            <div class="terminal">
+                <div class="shell">
+                    <p><span class="path">~</span><span class="prompt">$</span>cd <em>username</em>.github.io</p>
+                    <p><span class="path">~</span><span class="prompt">$</span>echo "Hello World" &gt; index.html</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="step4holder">
+        <div class="step4">
+            <p class="num">4</p>
+            <div class="step4-text">
+                <h4>Push it</h4>
+                <p>Add, commit, and push your changes:</p>
+            </div>
+            <div class="terminal">
+                <div class="shell">
+                    <p><span class="path">~</span><span class="prompt">$</span>git add --all</p>
+                    <p><span class="path">~</span><span class="prompt">$</span>git commit -m "Initial commit"</p>
+                    <p><span class="path">~</span><span class="prompt">$</span>git push -u origin main</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="step5holder">
+        <div class="step5">
+            <p class="num">5</p>
+            <div class="step5-text">
+                    <h4>…and you're done!</h4>
+                    <p>Fire up a browser and go to <strong>https://<em>username</em>.github.io</strong>.</p>
+                    <img src="https://media.tenor.com/bm8Q6yAlsPsAAAAj/verified.gif" alt="done gif">
+            </div>
+            <div class="hero-octicon">
+                <span class="mega-octicon octicon-check"></span>
+            </div>
+        </div>
+    </div>
+
+        <section id="next-steps">
+            <hr style="margin-top: 90px;">
+            <h2 style="margin: 40px auto 0 auto;">Now that you’re up and running, here are a few things you should know.</h2>
+
+            <div class="next-steps">
+                <div class="jekyll">
+                    <h4><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">Blogging with Jekyll</a></h4>
+                    <p>Using <a href="https://jekyllrb.com">Jekyll</a>, you can blog using beautiful Markdown syntax, and without having to deal with any databases. <a href="https://jekyllrb.com/docs/">Learn how to set up Jekyll</a>.</p>
+                </div>
+                <div class="custom-urls">
+                    <h4><a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">Custom URLs</a></h4>
+                    <p>Want to use your own custom domain for a GitHub Pages site? Just create a file named CNAME  and include your URL. <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">Read more</a>.</p>
+                </div>
+                <div class="guides">
+                    <h4><a href="https://docs.github.com/pages">Guides</a></h4>
+                    <p>Learn how to create custom 404 pages, use submodules, and <a href="https://docs.github.com/pages">learn more about GitHub Pages</a>.</p>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <div class="site-footer-links">
+            <p><a href="https://www.githubstatus.com/">Status</a></p>
+            <p><a href="https://docs.github.com/rest">API</a></p>
+            <p><a href="https://training.github.com">Training</a></p>
+            <p><a href="https://shop.github.com">Shop</a></p>
+            <p><a href="https://github.blog">Blog</a></p>
+        </div>
+        <img class="git-logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github logo">
+        <div class="site-footer-links">
+            <p><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service">Terms</a></p>
+            <p><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement">Privacy</a></p>
+            <p><a href="https://github.com/security">Security</a></p>
+            <p><a href="https://support.github.com">Contact</a></p>
+            <p><a href="https://github.com/about">About</a></p>
+        </div>
+    </footer>
+    <script src="./JS/script.js"></script>
+    <script src="./JS/scrollid.js"></script>
+</body>
+</html>

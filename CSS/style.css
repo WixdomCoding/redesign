@@ -1,0 +1,380 @@
+@font-face {
+    font-family: "Mulish";
+    src: url(./Fonts/Mulish-VariableFont_wght.ttf) format("ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    letter-spacing: -1px;
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    color: #333;
+}
+
+a {
+    margin-bottom: 0;
+    padding: 0;
+    color: black;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    height: 633px;
+}
+
+#toplogo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#slideshow-container {
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: -20px;
+}
+
+#slideshow {
+    margin-top: auto;
+}
+
+.help-link {
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #bbb;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.first-p {
+    margin: 5px 0px 5px 0px;
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.second-p {
+    opacity: 80%;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: lightgray;
+}
+
+.second-p a{
+    color: white;
+}
+
+.tutorial h1 {
+    margin: 90px auto 0 auto;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 60px;
+    max-width: 910px;
+}
+
+.tutorial h2 {
+    font-weight: 200;
+    line-height: 38px;
+    margin: 40px auto 0;
+    font-size: 21px;
+    max-width: 740px;
+    opacity: 80%;
+}
+
+.tabs {
+    display: inline-block;
+    margin: 45px 0px 0px -45px;
+    font-size: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+.tabs li {
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+}
+
+.tabs a {
+    border-left: 1px solid #dddddd;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(159, 69, 141);
+    padding: 10px 20px; 
+    display: inline-block;
+    position: relative;
+    line-height: 1em;
+}
+
+.tabs li:first-child a {
+    background-color: #327fc7;
+    padding: 10px 20px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: 1em;
+}
+
+.tabs li:first-child a:hover {
+    background-color: #1869b4;
+}
+
+.tabs li:last-child a {
+    background-color:rgb(234, 119, 119);
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tabs a:hover {
+    background-color:rgb(123, 51, 108);
+}
+
+.tabs li:last-child a:hover {
+    background-color: rgb(209, 75, 75)
+}
+
+
+#step1holder, #step2holder, #step3holder, #step4holder, #step5holder, .questionholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step1, .step2, .step3, .step4, .step5, .question {
+    margin-top: 6rem;
+    width: 55%;
+    background-color: white;
+    border: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.step1 {
+    flex-direction: row;
+    padding: 0;
+}
+
+.step1 a {
+    text-decoration: none;
+    color: rgb(234, 119, 119);
+}
+
+.step1-text {
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+
+.step1 h4 {
+    letter-spacing: -1px;
+}
+
+.createrepimg {
+    height: 340px;
+    width: 488px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terminal {
+    border-top: 1rem solid #9c9c9c;
+    background-color: #3d3d3d;
+    color: #eeeb82;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.4);
+    font-family: Consolas, "Liberation Mono", Courier, monospace;;
+    font-weight: 700;
+}
+
+#step2holder {
+    display: flex;
+    justify-content: center;
+}
+
+.shell {
+    text-align: justify;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    font-size: 1em;
+    overflow: auto;
+}
+
+.terminal p {
+    padding: 10px;
+}
+
+.path {
+    padding: 0 0.6em 0 0.6rem;
+    color: rgb(112, 150, 222);
+}
+
+.prompt {
+    color: lightcoral;
+    padding-right: 0.6em;
+}
+
+.next-steps a{
+    color: rgb(234, 119, 119);
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+footer a {
+    text-decoration: none;
+    color:rgb(234, 119, 119);;
+}
+
+.git-logo {
+    width: 60px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.next-steps {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 20px 0;
+}
+
+.next-steps div {
+    width: 27%;
+}
+
+.next-steps h4 a{
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+
+.num {
+    position: absolute;
+    background-color: rgb(26, 220, 0);
+    padding: 10px 20px;
+    border-radius: 100vw;
+    color: white;
+    margin-top: -1rem;
+}
+
+.step1 {
+    flex-direction: column;
+}
+
+.step1-flex {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* media querie */
+
+@media (max-width: 1000px) { 
+    
+    .help-link {
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        position: relative;
+        text-decoration: none;
+        background-color: #333;
+        color: #bbb;
+        padding: 20px 40px;
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .step1, .step2, .step3, .step4, .step5, .question {
+        width: 90%;
+    }
+    .git-logo {
+        display: none;
+    }
+    .site-footer-links {
+        flex-direction: column;
+    }
+    .shell {
+        text-align: center;
+        font-size: smaller;
+    }
+    .terminal {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .step1, .step2, .step3, .step4, .step5, .question {
+        width: 100%;
+        border-radius: 0;
+    }
+    .git-logo {
+        display: none;
+    }
+    .site-footer-links {
+        flex-direction: column;
+    }
+    .shell {
+        text-align: center;
+        font-size: smaller;
+    }
+    .terminal {
+        width: 90%;
+    }
+    .step1-flex, .step2-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .createrepimg {
+        width: 100%;
+    }
+}
