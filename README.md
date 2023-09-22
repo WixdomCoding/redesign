@@ -1,4 +1,4 @@
-# Omdesign av [GitHub-sidor](https://pages.github.com/)
+# Omdesign av [GitHub Pages](https://pages.github.com/)
 
 Vi har fattat beslut om att omdesigna GitHub-sidorna som hjälper dig att bygga din egen webbplats från grunden eller skapa en för ditt projekt.
 
